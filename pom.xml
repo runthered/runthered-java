@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.runthered.sdk</groupId>
   <artifactId>runthered-java-sdk</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Run The Red SDK</name>
   <description>Java helper library for Run The Red APIs</description>
@@ -94,6 +94,17 @@
 	                </goals>
 	            </execution>
 	        </executions>
+		</plugin>
+		<plugin>
+		    <groupId>org.sonatype.plugins</groupId>
+		    <artifactId>nexus-staging-maven-plugin</artifactId>
+		    <version>1.6.3</version>
+		    <extensions>true</extensions>
+		    <configuration>
+		        <serverId>ossrh</serverId>
+		        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+		        <autoReleaseAfterClose>true</autoReleaseAfterClose>
+		    </configuration>
 		</plugin>
 	</plugins>
   </build>
