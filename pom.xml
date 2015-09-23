@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.runthered.sdk</groupId>
   <artifactId>runthered-java-sdk</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
   <name>Run The Red SDK</name>
   <description>Java helper library for Run The Red APIs</description>
