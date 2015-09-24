@@ -5,11 +5,13 @@ A Java Run The Red API helper library.
 # Installation
 
 This can be installed using Maven by adding the following XML to your pom.xml file:
-	<dependency>
-		<groupId>com.runthered.sdk</groupId>
-		<artifactId>runthered-java-sdk</artifactId>
-		<version>0.0.1</version>
-	</dependency>
+```xml
+<dependency>
+	<groupId>com.runthered.sdk</groupId>
+	<artifactId>runthered-java-sdk</artifactId>
+	<version>0.0.1</version>
+</dependency>
+```
 
 # Examples
 
